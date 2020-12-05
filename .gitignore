@@ -1,0 +1,6 @@
+./googletest
+./rlog
+./cpputest
+./jsoncpp
+./build/*
+./rlog-1.4

@@ -1,0 +1,6 @@
+add_executable(example main.cpp)
+target_link_libraries(example gtest_main gtest pthread gmock gmock_main)
+add_test(NAME example_test COMMAND example)
+add_executable(test_cpputest test_cpputest.cpp)
+target_link_libraries(test_cpputest CppUTest CppUTestExt)
+add_test(NAME cpputest_test COMMAND test_cpputest)
